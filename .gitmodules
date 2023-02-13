@@ -1,0 +1,6 @@
+[submodule "gamecult"]
+	path = gamecult
+	url = keybase://team/signalkinetics.hack/gamecult
+[submodule "docs"]
+	path = docs
+	url = keybase://team/signalkinetics.hack/gamecult

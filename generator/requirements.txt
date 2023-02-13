@@ -1,0 +1,4 @@
+pillow
+
+# Base/core images: https://www.pixilart.com/art/sailorpunk-example-sr268e44b535513
+# Note - images are 24*24 pixels 

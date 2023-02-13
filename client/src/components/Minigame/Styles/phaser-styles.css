@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #333;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    position: relative;
+    width: 352px;
+    height: 198px;
+    margin: 0 auto;
+    outline: 1px solid #fff;
+
+    transform: scale(3) translateY(50%) /* Scale the pixels in the image/window (find an alternative to this method for non-pixel-art assets) */
+}
+
+/* Unblur the expanded pixel art from ^^ */
+.game-container canvas {
+    image-rendering: pixelated;
+}
